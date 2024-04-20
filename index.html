@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="navbar" id="myNavbar">
+        <a href="#" class="active">Home</a>
+        <a href="#">Order</a>
+        <a href="#">Food</a>
+        <a href="#">Restaurant</a>
+        <a href="#">Testimonials</a>
+        <a href="#">Contact Us</a>
+        <a href="javascript:void(0);" class="toggle" onclick="myFunction()">
+            <img src="menu-bar.png" alt="menu" class="img-toggle" />
+        </a>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <h2 class="lorem1">LOREM IPSUM</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi aliquid amet
+                temporibus, dicta perferendis illo iusto molestiae tempore, cum laboriosam quaerat sequi, distinctio ea
+                repudiandae nostrum. Sunt dolorum repellendus sit.
+                Perferendis nulla atque distinctio. Inventore maiores sequi fugiat dolorum asperiores quas ipsa
+                doloremque culpa? Obcaecati commodi dolorem, sequi aliquam quos dicta corrupti eligendi quam impedit
+                temporibus
+                tenetur,a suscipit officiis. Dicta sunt ullam, voluptas veniam consequatur impedit vitae unde, facere
+                maxime provident eum vero
+                libero, voluptatem quam commodi tempora. Illum excepturi fugiat, tempore odit officiis laudantium
+                blanditiis
+                accusamus explicabo obcaecati!
+            </p>
+            <button class="btn-1">Click Me</button>
+        </div>
+        <div class="sidebar">
+            <img src="pexels-robin-stickel-70497.jpg" alt="Side Image" class="image">
+        </div>
+    </div>
+
+    <div class="container2">
+        <div class="sideba2">
+            <img src="pexels-rachel-claire-6752433.jpg" alt="Side Image" class="image21">
+            <img src="pexels-eva-bronzini-6141651.jpg" alt="Side Image" class="image22">
+            <img src="pexels-mister-mister-3434523.jpg" alt="Side Image" class="image23">
+        </div>
+        <div class="content2">
+            <p>LOREM IPSUM</p>
+            <h1 class="head-text">LOREM IPSUM SET ADEMIR</h1>
+
+            <a href="#" class="link-click">Click <img src="icons8-arrow-30.png" alt="arrow" class="arrow"></a>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myNavbar");
+            if (x.className == "navbar") {
+                x.className += "responsive";
+
+            } else {
+                x.className = "navbar";
+            }
+        }
+    </script>
+</body>
+
+</html>
